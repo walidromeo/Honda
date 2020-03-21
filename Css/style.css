@@ -122,10 +122,6 @@ header
     font-size: 17px;
 }
 /* button */ 
-#button
-{
-
-}
  .butt
 {
     text-align: center;
@@ -218,27 +214,8 @@ h1
     text-align: center;
     border: 1px solid black;
     margin-top: 10px;
+    box-shadow: 1px 1px 10px 10px #979595e8;
 }
-/*
-.service-content::after
-{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -2;
-    width: 0%;
-    background: -webkit-linear-gradient(top left,rgba(0,0,0,1),rgb(48, 47, 47));
-    transition: width ease 1s;
-}
-.service-content:hover:after
-{
-    width: 100%;
-    
-}
-*/
 .sec
 {
     margin-left:256px;
@@ -269,6 +246,7 @@ h1
     color: black;
     visibility: hidden;
     opacity: 0;
+    cursor: pointer;
 }
 .sec .icon .fb i:hover
 {
@@ -300,7 +278,7 @@ h1
 {
     width: 30%;
     float: left;
-    color: #eee;    
+    color: #eee; 
 }
 .list-2 li a 
 {
